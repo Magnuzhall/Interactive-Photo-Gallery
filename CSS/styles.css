@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#searchbar {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 250px;
+    padding-left: 10px;
+    
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+}
+
